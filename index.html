@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Escola DNC - Formação em Tecnologia</title>
+</head>
+<body>
+
+    <!-- MENU SUPERIOR -->
+    <div id="menusuperior">
+        <div class="container">
+            <a href="https://www.escoladnc.com.br/">  <img src="imagens/logo.svg" id="logo" alt="Logo Escola DNC"> </a>
+            <div class="texto-header">
+                <h1 id="titulo-menusuperior">Dê os primeiros passos da<br>sua carreira em Tecnologia</h1>
+                <p id="texto-menusuperior">Inscreva-se no curso gratuito de Introdução à<br>Tecnologia da DNC School e aprenda os principais<br>fundamentos para construir experiências efetivas.</p>
+            </div>
+        </div>
+    </div> 
+
+    <!-- MENU INFORMACIONAL -->
+    <div id="menuinformacional"> 
+        <div class="container">
+            <p class="textoinformativo"> <img src="icones/certificado.svg" class="icone" id="certificado" alt=""> Certificado de conclusão </p>
+            <p class="textoinformativo"> <img src="icones/relogio.svg" class="icone" id="relogio" alt=""> 4 horas de conteúdo </p>
+            <p class="textoinformativo"> <img src="icones/camera.svg" class="icone" id="camera" alt=""> Aulas online gravadas </p>
+        </div>
+    </div>
+    <!-- SEÇÃO VIDEO -->
+     <div id="secaovideo">
+        <div class="container">
+            <div class="video-container">
+                <iframe id="video" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="DNC - A escola inovadora que forma profissionais de alta perfomance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="texto-video">
+                <h2 id="titulovideo">Aprenda com especialistas e<br>comece seu primeiro projeto</h2>
+                <p id="textovideo">
+                    Conheça o processo de desenvolvimento e entenda como utilizar<br>
+                    os principais métodos e ferramentas da área para resolver<br>
+                    problemas complexos.<br><br>
+                    Conquiste seu certificado e desenvolva um projeto prático para<br>
+                    aplicar seus conhecimentos.
+                </p>
+            </div>
+        </div>
+     </div>
+     <!-- CARROSSEL -->
+     <div id="carrossel"> 
+        <div class="container">
+            <h2 id="titulo-carrossel">Mais de 500 alunos já iniciaram seus estudos</h2>
+            <!-- DIVISÃO DOS CARDS -->
+            <div id="div-cards">
+                <img src="./cards/Leonardo.svg" alt="Depoimento do Leonardo" class="card-depoimento">
+                <img src="./cards/Samantha.svg" alt="Depoimento da Samantha" class="card-depoimento">
+                <img src="./cards/Bruna.svg" alt="Depoimento da Bruna" class="card-depoimento">
+            </div>
+            <div class="carrossel-controles">
+                <button class="controle-prev">&lt;</button>
+                <button class="controle-next">&gt;</button>
+            </div>
+        </div>
+     </div>
+
+     <!-- FORMULÁRIO -->
+     <div id="formulario">
+        <div class="container">
+            <h2 id="titulo-formulario">Comece agora mesmo e dê o próximo passo da sua carreira</h2>
+            <form action="https://www.escoladnc.com.br/" method="POST">
+                <input type="text" placeholder="Nome" name="nome" required>
+                <input type="email" placeholder="E-mail" name="email" required>
+                <input type="tel" placeholder="Telefone" name="telefone">
+                <button type="submit">Acessar o conteúdo grátis</button>
+            </form>
+        </div>
+     </div>
+
+     <!-- RODAPÉ -->
+     <footer>
+        <div class="container" id="footer-content">
+            <img src="imagens/logo.svg" alt="Logo Escola DNC" id="logo-footer">
+            <p>© 2023 Escola DNC - Todos os direitos reservados</p>
+        </div>
+     </footer>
+     
+    <script src="index.js"></script>
+</body>
+</html>
