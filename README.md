@@ -14,16 +14,3 @@ Este é o projeto publicado na Netlify como parte do desafio da DNC.
 
 ##  Desenvolvido por
 Patrícia Amâncio
-
-
-## Link do Projeto
-[https://amancioprojeto-dnc.netlify.app/](https://amancioprojeto-dnc.netlify.app/)
-
-##  Arquivos incluídos
-- index.html
-- style.css
-- script.js
-- Imagens e outros recursos utilizados
-
-##  Desenvolvido por
-Patrícia Amâncio
